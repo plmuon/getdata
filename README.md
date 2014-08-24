@@ -7,6 +7,7 @@ The script for the course project is called run_analysis.R. Usage:
 * Source the run_analysis.R script. Assuming it is in the directory above, exectute `source("../run_analysis.R")`
 * This will produce the required output file as "averages.txt" in the current working directory.
 
+## How the script works
 run_analysis.R first reads all relevant files with read.table. We read the actual data, but also the features.txt and activity_labels.txt. features.txt is used to read the column names; these names are used to select only the mean and standard deviation columns, and to set the column names. activity_labels.txt is used to translate the activities from integer (range 1:6) into a text.
 
 We "grep" the appropriate column numbers and names, then extract these columns from x_test and x_train.
