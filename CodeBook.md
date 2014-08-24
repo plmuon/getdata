@@ -10,10 +10,10 @@ The following describes how the output file, the tidy data set "averages.txt" wa
 * the first column, activity, contains the texts of the activities as provided in the original data
 * the second column, subject, identifies one of the 30 (numbered) test persons.
 * the other columns contain the mean value of the measurements for the activity and test subject.
-** e.g. the third column, tBodyAccMagMean, contains the mean value of the tBodyAccMag-mean() measurements for the activity and test subject.
+  * e.g. the third column, tBodyAccMagMean, contains the mean value of the tBodyAccMag-mean() measurements for the activity and test subject.
 * the column names for the measurements were cleaned up a little bit:
-** the original column names contains a measurements, followed by -mean(), -max() etc (see features_info.txt in the test data zip file).
-** the braces were removed
-** the - was removed
-** mean and std were capitalized
-** e.g. the original column name tBodyAccMag-mean() was renamed to tBodyAccMagMean
+  * the original column names contains a measurements, followed by -mean(), -max() etc (see features_info.txt in the test data zip file).
+  * the braces were removed
+  * the - was removed
+  * mean and std were capitalized
+  * e.g. the original column name tBodyAccMag-mean() was renamed to tBodyAccMagMean
